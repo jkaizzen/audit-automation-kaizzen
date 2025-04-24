@@ -1,0 +1,13 @@
+{
+    "63a5ab8e-08e9-4128-a774-8554f34a3908": {
+      "client_id": "SH7NBNSD82T05QO69QWB8NHJDDY7SG97",
+      "client_secret": "V5LTPYCCUI6O8QSYT82CFGOR5TQWU1YYFMRIQVANRT7F7MDV2S0ZJR6MKP6ORG0D",
+      "redirect_uri": "http://localhost:3000/clickup-callback"
+    },
+    "autre-tenant-id": {
+      "client_id": "CLICKUP_CLIENT_ID_2",
+      "client_secret": "CLICKUP_SECRET_2",
+      "redirect_uri": "http://localhost:3000/clickup-callback"
+    }
+  }
+  
