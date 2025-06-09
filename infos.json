@@ -1,0 +1,7 @@
+$msToken='{{ $json.body.msAccessToken }}'
+$tenantId='{{ $json.body.tenantId }}'
+$clientId='{{ $json.body.clientId }}'
+$clientSecret='{{ $json.body.clientSecret }}'
+$secureToken=ConvertTo-SecureString $msToken -AsPlainText -Force
+Connect-MgGraph -AccessToken $secureToken
+Get-Date
